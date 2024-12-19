@@ -8,21 +8,22 @@
 #include <set>
 #include <regex>
 
-std::string readTextFromFile(const std::string& filename);
+using namespace std;
 
-std::unordered_map<std::string, int> countWordOccurrences(const std::string& text);
+string readTextFromFile(const string& filename);
 
-std::unordered_map<std::string, int> findRepeatedWords(const std::unordered_map<std::string, int>& wordCounts);
+unordered_map<string, int> countWordOccurrences(const string& text);
 
-std::unordered_map<std::string, std::set<int>> createCrossReference(const std::string& text);
+unordered_map<string, int> findRepeatedWords(const unordered_map<string, int>& wordCounts);
 
-std::vector<std::string> extractUrls(const std::string& text);
+unordered_map<string, set<int>> createCrossReference(const string& text);
 
-void writeWordCountsToFile(const std::unordered_map<std::string, int>& repeatedWords, const std::string& filename);
+vector<string> extractUrls(const string& text);
 
-void writeCrossReferenceToFile(const std::unordered_map<std::string, std::set<int>>& crossReference, const std::string& filename);
+void writeWordCountsToFile(const unordered_map<string, int>& repeatedWords, const string& filename);
 
-void writeUrlsToFile(const std::vector<std::string>& urls, const std::string& filename);
+void writeCrossReferenceToFile(const unordered_map<string, set<int>>& crossReference, const string& filename);
 
+void writeUrlsToFile(const vector<string>& urls, const string& filename);
 
 #endif // FUNKCIJOS_H
