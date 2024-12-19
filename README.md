@@ -6,7 +6,7 @@
 
 ## **Programos veikimas**
 
-  * Programos įvesties failas pagal dabartinį programos kodą turi būti pavadintas **_input_text.txt**.
+  * Programos įvesties failas pagal dabartinį programos kodą (patalpintą **Egzamino_užduotis** direktorijoje) turi būti pavadintas **_input_text.txt**.
   * Paleidus programą, ji parašo trijų sukurtų išvesties failų pavadinimus. Visi šie failai prasideda _ simboliu, kad juos būtų lengviau surasti projekto direktorijoje. Norint uždaryti programą, reikia paspausti bet kurį klaviatūros klavišą.
   * Programos išvesties failai yra projekto direktorijoje:
     * **__urls.txt**:
